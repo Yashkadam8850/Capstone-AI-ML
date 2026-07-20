@@ -1,9 +1,3 @@
-"""Import Pandas
-
-**Explanation:**  
-import pandas` → Imports the Pandas library.
-as pd → Creates a short alias ("pd") so you can use pd.read_csv(), pd.DataFrame(), etc., instead of typing pandas.read_csv()"""""
-
 import pandas as pd
 ## Data Loading and Basic Inspection
 
