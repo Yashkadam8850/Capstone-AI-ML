@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-data=pd.read_csv("c:/Users/Yash/OneDrive/Desktop/CAPSTONE PROJECT/Data/clean_dataset/googleplaystore_cleaned.csv")
+data=pd.read_csv("CAPSTONE PROJECT/Data/clean_dataset/googleplaystore_cleaned.csv")
 print(data.head(5))
 print("The data has been loaded successfully")
 
