@@ -1,7 +1,7 @@
 import pandas as pd
 ## Data Loading and Basic Inspection
 
-data = pd.read_csv("c:/Users/Yash/OneDrive/Desktop/CAPSTONE PROJECT/Part 1/Data/Raw/googleplaystore.csv")
+data = pd.read_csv("Desktop/CAPSTONE PROJECT/Part 1/Data/Raw/googleplaystore.csv")
 print("The data has been loaded successfully")
 
 
