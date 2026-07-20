@@ -32,7 +32,7 @@ Top_10_Apps= data[["App","Reviews","Rating"]].sort_values(by="Reviews",ascending
 # Top 50 App Information 
 appinfo= data.groupby("App")[["Reviews","Rating"]].mean().sort_values(by="Reviews",ascending=False).head(50)
 
-#Convert the `Last Updated` column from the format **`Month Day, Year`** (e.g., `August 2, 2018`) to **`MM/DD/YYYY`** (e.g., `08/02/2018`) for consistency and easier analysis.
+#Convert the `Last Updated` column from the format **`Month Day, Year`**
 data["Last Updated"]= pd.to_datetime(data['Last Updated'])
 data["Last Updated"] = data["Last Updated"].dt.strftime("%m/%d/%Y")
 
