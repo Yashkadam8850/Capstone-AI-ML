@@ -79,8 +79,6 @@ python src/sql_queries.py
 python src/visualization.py
 ```
 
-> **Note:** The scripts currently reference local absolute file paths (e.g. `c:/Users/Yash/OneDrive/Desktop/...`). Update these paths to relative paths (e.g. `Data/Raw/googleplaystore.csv`) before running on another machine.
-
 ## Author
 
 Yash Kadam
